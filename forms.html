@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Forms</title>
+  </head>
+  <body>
+    <h1>Create a new user</h1>
+    <hr />
+    <!-- Form for a new user -->
+    <form action="newUser.php" method="post">
+      <label for="nombre">Nombre:</label>
+      <input type="text" name="nombre" maxlength="5" required placeholder="Inserta un nombre aqui">
+      <br />
+      <label for="pass">Password</label>
+      <input type="password" name="pass">
+      <br />
+      <p>Text area:</p>
+      <textarea name="description" rows="10" cols="10" >Hola</textarea>
+      <br />
+      <label>Color preferido</label>
+      <input type="radio" name="color" value="red" checked/> Rojo
+      <input type="radio" name="color" value="black"/>  Negro
+      <input type="radio" name="color" value="blue"/> Azul
+
+      <p>Please select your favorite music service(s):
+        <br />
+        <input type="checkbox" name="service" value="itunes" checked /> iTunes
+        <input type="checkbox" name="service" value="lastfm" checked/> Last.fm
+        <input type="checkbox" name="service" value="spotify" /> Spotify
+      </p>
+
+      <p>Select your internet provider:
+        <br />
+        <select name="internetProvider" size="3" multiple="multiple">
+          <option value="telecable"/> Telecable
+          <option value="axtel"/> Axtel
+          <option value="telmex" selected/> Telmex
+        </select>
+      </p>
+      <p> Upload file:
+        <input type="file" name="myFile">
+      </p>
+
+      <button><h1>Hola</h1></button>
+      <input type="hidden"/>
+
+      <fieldset>
+        <legend>Contact details</legend>
+        <label>Email:
+        <input type="text" name="email" /></label>
+        <label>Mobile:
+        <input type="text" name="mobile" /></label>
+        <label>Telephone:
+        <input type="text" name="telephone" /></label>
+      </fieldset>
+
+      <input type="date" name="fecha">
+
+      <label> Email: <input type="email" name="correo" /> </label
+      <label> Sitio web: <input type="url" name="site" /> </label
+      <label> Buscar <input type="search" name="search" /> </label
+
+      <input type="image" src="http://www.kafkabrigade.org.uk/wp-content/uploads/2011/07/button-pic.jpg" width="100" height="100"/>
+    </form>
+  </body>
+</html>
