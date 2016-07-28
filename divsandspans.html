@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Divs and spans</title>
+  </head>
+  <body>
+    <!-- Divs are block elements -->
+    <div>
+      DIV
+    </div>
+    contenido
+    <br />
+    <!-- Spans are inline elements -->
+    <span>SPAN</span> contenido
+
+    <br />
+
+    <!-- You can change any element from inline to block and vice versa -->
+    <style>
+      .box {
+        border: 1px black solid;
+        display: inline-block;
+        height: 100px;
+        width: 100px;
+      }
+      .green {
+        background-color: green;
+      }
+      .red {
+        background-color: red;
+      }
+    </style>
+
+    <!-- Flag -->
+    <div class="box green"></div>
+    <div class="box"></div>
+    <div class="box red"></div>
+  </body>
+</html>
