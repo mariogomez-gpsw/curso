@@ -1,0 +1,10 @@
+/*Class selector*/
+body {
+  background-color: black;
+  color: white;
+}
+
+.parent {
+  background-color: white;
+  color: black;
+}
