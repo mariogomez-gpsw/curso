@@ -1,0 +1,47 @@
+/*Universal selector: Applies to everything*/
+* {
+  color: blue;
+}
+
+/*Type selector: Change bullets color*/
+li {
+  color: black;
+}
+
+/*Class selector: Matches any element which contains this class name*/
+.note {
+  font-weight: bold;
+}
+
+/*ID selector: changes matched element with specific ID attribute*/
+#top {
+  font-style: italic;
+}
+#introduction {
+  color: #efefef;
+}
+/*Child selector: Matches an element that is a direct child of another*/
+li>a {
+  text-decoration: line-through;
+}
+
+/*If two or more rules are identical CSS sets the last one*/
+li>a {
+  text-decoration: none;
+}
+
+/*Descendant selector: Matches an element that is a descendent of another specified element (not just a direct child of that element) */
+p a {
+  text-transform: uppercase;
+}
+
+/*Sibling selector: Matches an element that is the next sibling of another*/
+h1+p {
+  font-family: Helvetica;
+}
+
+/*General Sibling Selector: Matches an element that is a sibling of another, although it does not have to be the directly preceding element*/
+
+h1~h2 {
+  color: green;
+}
