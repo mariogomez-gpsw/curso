@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Padding and margins with CSS</title>
+  </head>
+  <body>
+    <style media="screen">
+
+      * {
+        background-color: black;
+      }
+
+      div {
+        display: inline-block;
+        width: 40%;
+        height: 400px;
+        margin: 10px;
+      }
+
+      /*Those rules apply the same for margins and paddings*/
+
+
+      .box-paddings-1 {
+         /*Shorthand with paddings*/
+         background-color: red;
+         padding: 10px;
+
+        /*Those rules below are the same as above*/
+        /*padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px;*/
+      }
+
+      .box-paddings-2 {
+        /*Shorthand with two paddings*/
+        background-color: blue;
+        padding: 15px 30px;
+
+        /*Same as below*/
+        /*padding-top: 15px; padding-bottom: 15px; padding-right: 30px; padding-left: 30px;*/
+      }
+    </style>
+
+    <div class="box-paddings-1">
+
+    </div>
+    <div class="box-paddings-2">
+
+    </div>
+  </body>
+</html>
