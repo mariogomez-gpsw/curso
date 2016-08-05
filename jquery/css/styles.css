@@ -1,0 +1,9 @@
+body {
+  background-color: #000;
+  color: #FFF;
+}
+
+.whiteBackground {
+  background-color: #FFF;
+  color: #000;
+}
